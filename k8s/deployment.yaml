@@ -16,4 +16,4 @@ spec:
       - name: myapp
         image: IMAGE_PLACEHOLDER
         ports:
-        - containerPort: 8000
+        - containerPort: 8080
