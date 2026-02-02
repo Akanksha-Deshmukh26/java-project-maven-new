@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: 991150654395.dkr.ecr.ap-south-1.amazonaws.com/myapp:5
+        image: IMAGE_PLACEHOLDER
         ports:
         - containerPort: 8000
