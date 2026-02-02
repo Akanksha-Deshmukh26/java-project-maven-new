@@ -7,7 +7,7 @@ RUN rm -rf /usr/local/tomcat/webapps/*
 COPY target/*.war /usr/local/tomcat/webapps/ROOT.war
 
 # Kubernetes-friendly settings
-EXPOSE 8080
+EXPOSE 8000
 
 # Run Tomcat in foreground (IMPORTANT for Pods)
 CMD ["catalina.sh", "run"]
